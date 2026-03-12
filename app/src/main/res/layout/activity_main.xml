@@ -87,12 +87,53 @@
             android:layout_weight="1"/>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/card10"
+            android:layout_width="match_parent"
+            android:layout_height="130dip"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/card11"
+            android:layout_width="match_parent"
+            android:layout_height="130dip"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/card12"
+            android:layout_width="match_parent"
+            android:layout_height="130dip"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
     <Button
         android:id="@+id/btn_reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="@string/text_reset"/>
+
+    <TextView
+        android:id="@+id/txt_congratulations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/text_congratulations"/>
+
+    <Button
+        android:id="@+id/btn_new_winner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_registered"/>
 
 
 

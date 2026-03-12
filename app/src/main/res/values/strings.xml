@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Cheems</string>
     <string name="text_reset">Reset</string>
+    <string name="form_name">Name:</string>
+    <string name="form_nickname">Nickname:</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_registered">Registered</string>
+    <string name="text_congratulations">Congratulations! You won the game :)</string>
 </resources>

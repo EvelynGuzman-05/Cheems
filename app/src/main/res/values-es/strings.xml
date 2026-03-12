@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name">Cheems</string>
     <string name="text_reset">Reiniciar</string>
+    <string name="form_name">Nombre:</string>
+    <string name="form_nickname">Apodo:</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_registered">Registrate</string>
+    <string name="text_congratulations">Felicidades! Ganaste la partida :)</string>
 </resources>
