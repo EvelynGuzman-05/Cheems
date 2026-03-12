@@ -21,10 +21,12 @@ class WinnerFormActivity : AppCompatActivity(), View.OnClickListener {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+
         }
 
         val btnSave = findViewById<View>(R.id.btn_save) as Button
         btnSave.setOnClickListener(this)
+
     }
 
     override fun onClick(view: View){
@@ -43,4 +45,6 @@ class WinnerFormActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
+
+
 }

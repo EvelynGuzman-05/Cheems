@@ -49,7 +49,30 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             start()
         }
 
+
     }
+
+
+
+    // Sin override - metodo nuevo, no existe en la clase padre
+    // Con override - modificando un metodo que YA EXISTE en AppCompatActivity
+
+
+    // onCreate() → cuando la Activity se crea por primera vez
+    // onStart() → cuando la Activity empieza a ser visible
+    // onResume() → cuando la Activity está visible y activa
+    // onPause() → cuando la Activity pierde el foco
+    // onStop() → cuando la Activity deja de ser visible
+    // onDestroy() → cuando la Activity se destruye
+    // finish() → cierra la Activity actual y regresa al anterior  en este caso es el MainActivity
+    // onResume() → se dispara automáticamente cuando el MainActivity vuelve a estar visible, y en ese momento llama al metodo start() para reiniciar el juego
+    override fun onResume() { // override = se sobreescribe el metodo que YA EXISTE por defecto en la clase padre (AppCompatActivity)
+        super.onResume() // ejecuta el comportamiento original de Android
+        start() // se llama al metodo start()
+    }
+
+
+
     fun start(){
         // Ocultar TextView y Button al reiniciar // View.GONE = oculta el elemento y no ocupa espacio en pantalla
         findViewById<TextView>(R.id.txt_congratulations).visibility = View.GONE

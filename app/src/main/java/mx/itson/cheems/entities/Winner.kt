@@ -34,6 +34,7 @@ class Winner {
             return true  // Retorna true si se guardó correctamente
 
 
+
         }catch (ex: Exception) {
             Log.e("Error saving Winner", ex.message.toString())
             return false  // Retorna false si hubo un error
